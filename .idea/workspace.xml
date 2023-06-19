@@ -1,26 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="535a2f8d-4cc3-4010-b987-453ff833bf90" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlin_basics.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/arrays.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/assignment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/cases.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/control_structures.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/data_types_and_variables.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/discount.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/functions.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/functions2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/longword.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/loops.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/operators.kt" afterDir="false" />
+    <list default="true" id="535a2f8d-4cc3-4010-b987-453ff833bf90" name="Changes" comment="kotlin fundamentals">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Base.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/OOP.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/`parentClass`.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/account.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/constructor.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/exception-handling.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/arrays.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/arrays.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/discount.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/discount.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/longword.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/longword.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,9 +21,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
         <option value="JUnit5 Test Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -48,15 +39,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": ""
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\TECHSKILLS 360\IdeaProjects\kotlin_basics\src\main\kotlin" />
@@ -68,7 +59,14 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.ArraysKt">
+  <component name="RunManager" selected="Kotlin.BaseKt">
+    <configuration name="AccountKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AccountKt" />
+      <module name="kotlin_basics" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ArraysKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraysKt" />
       <module name="kotlin_basics" />
@@ -83,29 +81,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CasesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CasesKt" />
+    <configuration name="BaseKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BaseKt" />
       <module name="kotlin_basics" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Functions2Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Functions2Kt" />
+    <configuration name="ConstructorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ConstructorKt" />
       <module name="kotlin_basics" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunctionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FunctionsKt" />
-      <module name="kotlin_basics" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LongwordKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LongwordKt" />
+    <configuration name="_parentClass_Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_parentClass_Kt" />
       <module name="kotlin_basics" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -113,11 +104,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.BaseKt" />
+        <item itemvalue="Kotlin.ConstructorKt" />
+        <item itemvalue="Kotlin._parentClass_Kt" />
+        <item itemvalue="Kotlin.AccountKt" />
         <item itemvalue="Kotlin.ArraysKt" />
-        <item itemvalue="Kotlin.LongwordKt" />
-        <item itemvalue="Kotlin.CasesKt" />
-        <item itemvalue="Kotlin.Functions2Kt" />
-        <item itemvalue="Kotlin.FunctionsKt" />
       </list>
     </recent_temporary>
   </component>
@@ -130,6 +121,21 @@
       <option name="presentableId" value="Default" />
       <updated>1686302401899</updated>
     </task>
+    <task id="LOCAL-00001" summary="kotlin fundamentals">
+      <created>1686819416167</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1686819416167</updated>
+    </task>
+    <task id="LOCAL-00002" summary="kotlin fundamentals">
+      <created>1686820313862</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1686820313862</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -142,5 +148,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="kotlin fundamentals" />
+    <option name="LAST_COMMIT_MESSAGE" value="kotlin fundamentals" />
   </component>
 </project>
