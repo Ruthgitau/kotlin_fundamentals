@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="535a2f8d-4cc3-4010-b987-453ff833bf90" name="Changes" comment="kotlin fundamentals">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Base.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/OOP.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/`parentClass`.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/account.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/constructor.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/exception-handling.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Girl.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/businessman.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/footballer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/inheritance.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/mathteacher.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/arrays.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/arrays.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/discount.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/discount.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/longword.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/longword.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/constructor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/constructor.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,21 +56,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.BaseKt">
-    <configuration name="AccountKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AccountKt" />
-      <module name="kotlin_basics" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArraysKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysKt" />
-      <module name="kotlin_basics" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.GirlKt">
     <configuration name="AssignmentKt" type="JetRunConfigurationType" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AssignmentKt" />
       <module name="kotlin_basics" />
@@ -95,6 +78,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FootballerKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FootballerKt" />
+      <module name="kotlin_basics" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GirlKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GirlKt" />
+      <module name="kotlin_basics" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="_parentClass_Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_parentClass_Kt" />
       <module name="kotlin_basics" />
@@ -104,11 +101,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.GirlKt" />
+        <item itemvalue="Kotlin.FootballerKt" />
         <item itemvalue="Kotlin.BaseKt" />
         <item itemvalue="Kotlin.ConstructorKt" />
         <item itemvalue="Kotlin._parentClass_Kt" />
-        <item itemvalue="Kotlin.AccountKt" />
-        <item itemvalue="Kotlin.ArraysKt" />
       </list>
     </recent_temporary>
   </component>
