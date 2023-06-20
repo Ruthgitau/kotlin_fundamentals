@@ -22,10 +22,6 @@ class myclass(val name:String, var id:Int) { //primary constructor
     }
 }
 
-
-
-
-
 fun main(){
     var mtu=myclass("Ruth", 4673457)
     println(mtu.name)
